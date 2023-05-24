@@ -1,0 +1,51 @@
+.container-md{
+    .card-body{
+        border-radius: 80px;
+       
+    }
+    .card-header{
+        font-weight: 500;
+        background-color: white;
+        color: #4B535D;
+    }
+    .form-control{
+        border: 0.5px solid #9fabbb;
+        color: #929297;
+     }
+     ::-webkit-input-placeholder{
+        color: #929297;
+    }
+    .select-container{
+        display: flex;
+        position: relative;
+        min-width: 250px;
+        height: 38px;
+    }
+    .icon-container{
+        width: 20px;
+        height: 90%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    .name__icon{
+        color: rgb(223, 84, 84);
+        font-size: 8px;
+        padding-left:4px ;
+        padding-bottom: 10px;
+        
+    }
+    #cardheader1{
+        margin-top: -14px;
+        margin-left: 25px;
+        font-weight: 600;
+        color:#4B535D ;
+    }
+
+
+
+}

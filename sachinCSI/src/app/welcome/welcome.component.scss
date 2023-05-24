@@ -1,0 +1,32 @@
+.banner {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust the height according to your needs */
+   /* Set the background color of the banner */
+  
+    .title {
+      font-size: 24px; /* Adjust the font size as desired */
+      text-align: center;
+      color: red; /* Set the color for "CLOUD SOLUTION" */
+      font-weight: 600;
+      
+    }
+    .title__1{
+        font-size: 24px;/* Set the color for "CLOUD SOLUTION" */
+        font-weight: 600;
+    }
+  
+    .btn {
+      margin-top: 20px; /* Adjust the margin as desired */
+      padding: 10px 20px; /* Adjust the padding as desired */
+      background-color: #2ED573; /* Set the background color for the button */
+      color: white; /* Set the text color for the button */
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  
